@@ -1,0 +1,8 @@
+LABEL ZORINOSEDU
+MENU LABEL ^ZorinOS Live - Educational Edition
+KERNEL er/plugins/zorinos/edu/vmlinuz
+INITRD er/plugins/zorinos/edu/initrd.gz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/zorinos/edu/ ramdisk_size=200000 nolock
+TEXT HELP
+                 ZorinOS Live Educational Edition.
+ENDTEXT

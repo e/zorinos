@@ -1,0 +1,15 @@
+MENU BEGIN ZORINOSLIVE
+MENU LABEL ^ZorinOS 5.2
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/zorinos/zorinos.png
+
+MENU INCLUDE er/plugins/zorinos/i386/zorinosmain.menu
+MENU INCLUDE er/plugins/zorinos/x86_64/zorinosmain.menu
+MENU INCLUDE er/plugins/zorinos/edu/zorinosmain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

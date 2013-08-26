@@ -1,0 +1,8 @@
+LABEL ZORINOS64
+MENU LABEL ^ZorinOS Live - x64
+KERNEL er/plugins/zorinos/x86_64/vmlinuz
+INITRD er/plugins/zorinos/x86_64/initrd.gz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/zorinos/x86_64/ ramdisk_size=200000 nolock
+TEXT HELP
+                 ZorinOS Live x64.
+ENDTEXT

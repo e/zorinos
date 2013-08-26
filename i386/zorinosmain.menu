@@ -1,0 +1,8 @@
+LABEL ZORINOS32
+MENU LABEL ^ZorinOS Live - i386
+KERNEL er/plugins/zorinos/i386/vmlinuz
+INITRD er/plugins/zorinos/i386/initrd.gz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/zorinos/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 ZorinOS Live x32.
+ENDTEXT
